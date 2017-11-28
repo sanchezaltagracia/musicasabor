@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Croissant+One|Gabriela');
+html,body {height:100%;}
+body{background-image:url("../img/guitar2.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: gold;
+}
+#foot, #foot1, #foot2, #foot3, #foot4{
+    height: 50px; width: 50px; margin-right:1%;
+}
+#titleme{
+     
+     text-shadow: 4px 5px  7px gold;
+     font-family: 'Croissant One', cursive;
+     font-size: 80px;
+     color: black;
+}
+
+#name1,#name2,#name3,#name4,#name5{
+    font-size: 30px;
+    font-family: 'Croissant One', cursive;
+    color: black;
+}
+#blow {
+    height: 100px; width: 100px; background-color: black;
+}
+
+h1{text-align: center;}
+section{height:80%;display:flex; align-items:center;}
+section>div{height:auto;width:100%;background-color:darkorchid;position:fixed;}
+@media only screen and (max-width:990px)
+{
+    section{position:fixed;top:20%;}
+}
